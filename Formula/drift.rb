@@ -5,21 +5,21 @@
 class Drift < Formula
   desc "Fast, open-source database migration tool with undo, dry-run, diff, and linting"
   homepage "https://github.com/frankchan/drift"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.1.1/drift_darwin_amd64.tar.gz"
-      sha256 "62b077fc3e8b1e565ec6b913eac04bc309a942ea27e09328ec4fbfa2827fd1cc"
+      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.2.0/drift_darwin_amd64.tar.gz"
+      sha256 "6777e1fbeb6c9eca7bdd34eeecb2fddba22a50d44ffd5093df138f1e956659ac"
 
       def install
         bin.install "drift"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.1.1/drift_darwin_arm64.tar.gz"
-      sha256 "2d450e497ab71b2cc682c2b44f0d9450d4f7820a97be01b46e877f63d39a9521"
+      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.2.0/drift_darwin_arm64.tar.gz"
+      sha256 "c73f12cfedf88408302e32354d86418f91ceb1b8644fbe9c13182ecdc2d0c5cd"
 
       def install
         bin.install "drift"
@@ -29,15 +29,15 @@ class Drift < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.1.1/drift_linux_amd64.tar.gz"
-      sha256 "b06b007455508ecbfe793636d8ca1d36892dea358d2788185d8867408bcff387"
+      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.2.0/drift_linux_amd64.tar.gz"
+      sha256 "9d2d1dc9a11f6bd25e0c194a072c33d0ee98eb7f21e834938105ac074be364b7"
       def install
         bin.install "drift"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.1.1/drift_linux_arm64.tar.gz"
-      sha256 "7a5f8abd87610af814b3b9c2a9613af98bb5737f57acc8157ba3867799729130"
+      url "https://github.com/dunkinfrunkin/drift/releases/download/v0.2.0/drift_linux_arm64.tar.gz"
+      sha256 "eb78a812f6b07462e5059c262d611b5c2d3b9ef3237ead666eda9be7f3ba7735"
       def install
         bin.install "drift"
       end
