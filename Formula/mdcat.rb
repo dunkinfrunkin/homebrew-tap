@@ -4,10 +4,10 @@
 class Mdcat < Formula
   desc "Terminal pager for Markdown with syntax highlighting and search"
   homepage "https://github.com/dunkinfrunkin/mdcat"
-  url "https://registry.npmjs.org/@dunkinfrunkin/mdcat/-/mdcat-0.1.14.tgz"
-  sha256 "521d119bf5ff21009115117e62e53ecf9c9c9f64e8fcde6ea9f2d450e9d15d89"
+  url "https://registry.npmjs.org/@dunkinfrunkin/mdcat/-/mdcat-0.1.15.tgz"
+  sha256 "2bdbf6976152ad71de1f2e31af4c361a98e7ea869945ddca385e6deb536b5236"
   license "MIT"
-  version "0.1.14"
+  version "0.1.15"
 
   depends_on "node"
 
