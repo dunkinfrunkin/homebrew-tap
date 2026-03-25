@@ -7,22 +7,22 @@ class Kit < Formula
   on_macos do
     on_arm do
       url "https://github.com/dunkinfrunkin/kit/releases/download/v#{version}/kit_darwin_arm64.tar.gz"
-      sha256 "79dcd82e6096e976f36959ea57039053878f5201da031f0e6545cbf2566be912"
+      sha256 "6a18b9d5395af9f9a9d297ef65d5d7e7413154d3c6ddd72e1af253e2a7bd635c"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/kit/releases/download/v#{version}/kit_darwin_amd64.tar.gz"
-      sha256 "6bc67b5fb6422a11e16ea5108229b831d95fadaaa5689a599404881f0b228c45"
+      sha256 "a090596f60d426a9dc10469648727def2f149ff70bffd0a5f1fc4f3fb5d04e45"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dunkinfrunkin/kit/releases/download/v#{version}/kit_linux_arm64.tar.gz"
-      sha256 "324abb4e41bfffc259b82efb4df0cd2599cb7b3458728e6d6bb13952d5b95e9b"
+      sha256 "d7e8283acc89a140bf627dcc9dd85f4507e3529691c679720abb2966f3dfff3c"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/kit/releases/download/v#{version}/kit_linux_amd64.tar.gz"
-      sha256 "03ad01f46bf8dbefb8df1c59932156c59bf324b3e9093fc8e2dc20a33cfed2cd"
+      sha256 "79da69fed77a431177c2624d28b5406b58e0eb83bf41ede5bf803f7c0e3b9ab9"
     end
   end
 
