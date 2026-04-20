@@ -1,28 +1,28 @@
 class Maestro < Formula
   desc "Autonomous coding agent orchestration for engineering teams"
   homepage "https://github.com/dunkinfrunkin/maestro"
-  version "0.35.1"
+  version "0.35.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_darwin_arm64.tar.gz"
-        sha256 "2c0bdf32154b1df2ad8d7eae2cb0415a25ece7f3bad8b185294c3dfa5c996c74"
+        sha256 "2ad89f42d50887128b7043e9bcb8aee48a7c9445c5d76461adf36ec39ef2aa08"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_darwin_amd64.tar.gz"
-        sha256 "7de4f259a9e10fdc9e5a17d5f2a5c3bc6162c6b50f5b7209f8ddc2f5658706a2"
+        sha256 "5cd72f82b149665c89577ba35da270a0b70494174a4da3f4ad91c85220a95828"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_linux_arm64.tar.gz"
-        sha256 "aca4bedcb7c041d620e265342c6bd825f620566ceff832048d0acd17177c7e7c"
+        sha256 "9bf23f62bbb1cc4731442f6a603eab255bc40e0b8485db00a753b4d172de1d49"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_linux_amd64.tar.gz"
-        sha256 "3f24771e6813bc941b476aa9eac473f9ce13b85450bd9ab6df9c8d92a253a217"
+        sha256 "427914d022c65e4696877b14a08ae54484a1ea224c174fcc70cdc272fcfc2f21"
     end
   end
 
