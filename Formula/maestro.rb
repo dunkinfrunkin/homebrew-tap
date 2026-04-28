@@ -6,22 +6,22 @@ class Maestro < Formula
   on_macos do
     on_arm do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_darwin_arm64.tar.gz"
-        sha256 "02302037fc47a8bf9e6df9df7341b55e06902ec35dc55b9237a9b675b65e8313"
+        sha256 "9bcf9114ef7bbee311e92ff5c43e3e3bd47d41066ad0d5cebd6c55a60b2280ef"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_darwin_amd64.tar.gz"
-        sha256 "547adfc1d423167d23b00c4f0381b2f20a729d7543c0b70a348f3216a5a9e300"
+        sha256 "862b34ddae44c08d23da907eca4d5fd8a57507986b4ca1f4a057e11983cb20d3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_linux_arm64.tar.gz"
-        sha256 "1010ec5005226c2271ba354e103d48af3af7640db3f96bdea45e8b578e32a0ae"
+        sha256 "02cf2357740e9c2350db7f39a3171efbc82395bb0736d1e5cfbf12609daa7982"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/v#{version}/maestro_linux_amd64.tar.gz"
-        sha256 "3633982a1f77f1491ce5f5e7eb5ce183d982dc996a6f97c8017c1a699fde46af"
+        sha256 "031b406d996da95d4cd053729068f199ce5accb303963c416eafa698add28e27"
     end
   end
 
