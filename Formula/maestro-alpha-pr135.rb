@@ -7,22 +7,22 @@ class MaestroAlphaPr135 < Formula
   on_macos do
     on_arm do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/alpha-pr135/maestro_darwin_arm64.tar.gz"
-      sha256 "4845ab6f6e4168aaf27ba4dde9b99fd68f049893815022cc163744ffcf28675a"
+      sha256 "e5c9e4f23b53a7e4c53635b9126267bed9e03c6993d49f96bb9d52d04091a306"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/alpha-pr135/maestro_darwin_amd64.tar.gz"
-      sha256 "e563bde123a074f7bb61be990cd365d2b37ee0f70722e23a44b5a541e999576a"
+      sha256 "824efbe75ea82d7362ce535aa99919134e59c2e1ba7de5032c75ea0098a4dbff"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/alpha-pr135/maestro_linux_arm64.tar.gz"
-      sha256 "06dde492c606263fe3522d02a06e2e5654b05ef79632829c4b2ac234d260351d"
+      sha256 "cb185de048204ad6c81ae44c009161c0119d757b568ee9d92cda20d3ff8a944a"
     end
     on_intel do
       url "https://github.com/dunkinfrunkin/maestro/releases/download/alpha-pr135/maestro_linux_amd64.tar.gz"
-      sha256 "231e18d8257012bea7b21992fbac4ff4ceafaf02bd78f8cff4ea74c71819e9b5"
+      sha256 "4921c8a6dc26f3e4b3f71fb940293b422ab9c0b2b465eab1c4aa2823b34b11ca"
     end
   end
 
